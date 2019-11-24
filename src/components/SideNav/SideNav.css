@@ -1,0 +1,21 @@
+.SideNav {
+    position: fixed;
+    top: 50%;
+    right: 1vw;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+.SideNav-link {
+    box-sizing: border-box;
+    display: block;
+    margin: 1.6rem 1rem;
+    color: #796F6D;
+    font-size: 1.4rem;
+}
+
+.sideNavActive {
+    color: #00CDFD;
+}
